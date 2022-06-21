@@ -1,0 +1,16 @@
+.banner {
+    color: black;
+    text-align: right;
+    padding: 32px;
+    border-bottom: solid 3px black;
+}
+
+.logo {
+    height: 45px;
+	width: 45px;
+}
+
+.title {
+    padding-left: 32px;
+}
+
