@@ -28,3 +28,7 @@
 	padding: 5px 10px;
 	background-color: #31b572;
 }
+
+.sales::after {
+	background-image: url(../assets/sun.svg);
+}

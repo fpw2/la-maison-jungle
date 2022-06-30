@@ -1,4 +1,5 @@
 import { plantList } from "../datas/plantList"
+import CareScale from "./CareScale"
 import "../styles/ShoppingList.css"
 
 const ShoppingList = () => {
@@ -16,6 +17,8 @@ const ShoppingList = () => {
                     <li key={plant.id} className="plant-item">
                         {plant.name}
                         {plant.isBestSale ? <div className='sales'>Soldes</div> : null}
+                        <CareScale careType="water" scaleValue={plant.water} />
+                        <CareScale careType="light" scaleValue={plant.light} />
                     </li>
                 ))}
             </ul>
