@@ -3,11 +3,14 @@
     text-align: right;
     padding: 32px;
     border-bottom: solid 3px black;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .logo {
     height: 45px;
 	width: 45px;
+    align-self: center;
 }
 
 .title {

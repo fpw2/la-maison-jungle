@@ -1,13 +1,10 @@
-import logo from '../assets/logo.png'
 import '../styles/Banner.css'
 
-const Banner = () => {
-    const title = "La maison Jungle"
+// dans App.js dans la balise Banner je laisse une place pour les balises enfants(children)
+// les styles css seront aussi appliqué dans App quand j'import ici 
+const Banner = ({children}) => { 
     return (
-        <div className="banner">
-            <img src={logo} className="logo" alt="La maison jungle"/>
-            <h1 className = "title">{title}</h1>
-        </div>
+        <div className="banner">{children}</div>
     )
 }
 
